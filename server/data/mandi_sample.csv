@@ -1,0 +1,104 @@
+crop,district,market,min_price,max_price,modal_price,date
+arecanut,Dakshina Kannada,Mangaluru,38000,42000,40000,2026-10-18
+arecanut,Dakshina Kannada,Mangaluru,37500,41500,39500,2026-10-17
+arecanut,Dakshina Kannada,Mangaluru,38200,42200,40200,2026-10-16
+arecanut,Dakshina Kannada,Mangaluru,37000,41000,39000,2026-10-15
+arecanut,Dakshina Kannada,Mangaluru,37800,41800,39800,2026-10-14
+arecanut,Dakshina Kannada,Mangaluru,38500,42500,40500,2026-10-13
+arecanut,Dakshina Kannada,Mangaluru,37200,41200,39200,2026-10-12
+arecanut,Dakshina Kannada,Puttur,37000,41000,39000,2026-10-18
+arecanut,Dakshina Kannada,Puttur,36500,40500,38500,2026-10-17
+arecanut,Dakshina Kannada,Puttur,37200,41200,39200,2026-10-16
+arecanut,Dakshina Kannada,Puttur,36800,40800,38800,2026-10-15
+arecanut,Dakshina Kannada,Puttur,37500,41500,39500,2026-10-14
+arecanut,Dakshina Kannada,Puttur,36000,40000,38000,2026-10-13
+arecanut,Dakshina Kannada,Puttur,37000,41000,39000,2026-10-12
+arecanut,Dakshina Kannada,Sullia,36000,40000,38000,2026-10-18
+arecanut,Dakshina Kannada,Sullia,35500,39500,37500,2026-10-17
+arecanut,Dakshina Kannada,Sullia,36200,40200,38200,2026-10-16
+arecanut,Dakshina Kannada,Sullia,35000,39000,37000,2026-10-15
+arecanut,Udupi,Udupi,37500,41500,39500,2026-10-18
+arecanut,Udupi,Udupi,37000,41000,39000,2026-10-17
+arecanut,Udupi,Udupi,37200,41200,39200,2026-10-16
+arecanut,Udupi,Kundapura,36500,40500,38500,2026-10-18
+arecanut,Udupi,Kundapura,36000,40000,38000,2026-10-17
+arecanut,Udupi,Karkala,37000,41000,39000,2026-10-18
+arecanut,Udupi,Karkala,36500,40500,38500,2026-10-17
+coconut,Dakshina Kannada,Mangaluru,2500,3200,2800,2026-10-18
+coconut,Dakshina Kannada,Mangaluru,2400,3100,2700,2026-10-17
+coconut,Dakshina Kannada,Mangaluru,2550,3250,2850,2026-10-16
+coconut,Dakshina Kannada,Mangaluru,2300,3000,2650,2026-10-15
+coconut,Dakshina Kannada,Mangaluru,2450,3150,2750,2026-10-14
+coconut,Dakshina Kannada,Mangaluru,2500,3200,2800,2026-10-13
+coconut,Dakshina Kannada,Mangaluru,2350,3050,2700,2026-10-12
+coconut,Dakshina Kannada,Puttur,2400,3100,2700,2026-10-18
+coconut,Dakshina Kannada,Puttur,2350,3050,2650,2026-10-17
+coconut,Dakshina Kannada,Bantwal,2450,3150,2750,2026-10-18
+coconut,Dakshina Kannada,Bantwal,2400,3100,2700,2026-10-17
+coconut,Udupi,Udupi,2550,3250,2850,2026-10-18
+coconut,Udupi,Udupi,2500,3200,2800,2026-10-17
+coconut,Udupi,Kundapura,2400,3100,2700,2026-10-18
+coconut,Udupi,Karkala,2500,3200,2800,2026-10-18
+paddy,Dakshina Kannada,Mangaluru,2000,2400,2200,2026-10-18
+paddy,Dakshina Kannada,Mangaluru,1950,2350,2150,2026-10-17
+paddy,Dakshina Kannada,Mangaluru,2050,2450,2250,2026-10-16
+paddy,Dakshina Kannada,Mangaluru,1900,2300,2100,2026-10-15
+paddy,Dakshina Kannada,Mangaluru,2000,2400,2200,2026-10-14
+paddy,Dakshina Kannada,Mangaluru,1950,2350,2150,2026-10-13
+paddy,Dakshina Kannada,Mangaluru,2050,2450,2250,2026-10-12
+paddy,Dakshina Kannada,Puttur,1900,2300,2100,2026-10-18
+paddy,Dakshina Kannada,Bantwal,1950,2350,2150,2026-10-18
+paddy,Udupi,Udupi,2050,2450,2250,2026-10-18
+paddy,Udupi,Udupi,2000,2400,2200,2026-10-17
+paddy,Udupi,Kundapura,1950,2350,2150,2026-10-18
+tomato,Dakshina Kannada,Mangaluru,1500,2500,2000,2026-10-18
+tomato,Dakshina Kannada,Mangaluru,1400,2400,1900,2026-10-17
+tomato,Dakshina Kannada,Mangaluru,1600,2600,2100,2026-10-16
+tomato,Dakshina Kannada,Mangaluru,1300,2300,1800,2026-10-15
+tomato,Dakshina Kannada,Mangaluru,1550,2550,2050,2026-10-14
+tomato,Dakshina Kannada,Mangaluru,1450,2450,1950,2026-10-13
+tomato,Dakshina Kannada,Mangaluru,1500,2500,2000,2026-10-12
+tomato,Udupi,Udupi,1600,2600,2100,2026-10-18
+tomato,Udupi,Udupi,1500,2500,2000,2026-10-17
+tomato,Udupi,Kundapura,1400,2400,1900,2026-10-18
+banana,Dakshina Kannada,Mangaluru,2000,3000,2500,2026-10-18
+banana,Dakshina Kannada,Mangaluru,1900,2900,2400,2026-10-17
+banana,Dakshina Kannada,Mangaluru,2100,3100,2600,2026-10-16
+banana,Dakshina Kannada,Mangaluru,1800,2800,2300,2026-10-15
+banana,Dakshina Kannada,Mangaluru,2000,3000,2500,2026-10-14
+banana,Dakshina Kannada,Mangaluru,1950,2950,2450,2026-10-13
+banana,Dakshina Kannada,Mangaluru,2050,3050,2550,2026-10-12
+banana,Dakshina Kannada,Puttur,1900,2900,2400,2026-10-18
+banana,Udupi,Udupi,2100,3100,2600,2026-10-18
+banana,Udupi,Udupi,2000,3000,2500,2026-10-17
+chilli,Dakshina Kannada,Mangaluru,8000,12000,10000,2026-10-18
+chilli,Dakshina Kannada,Mangaluru,7800,11800,9800,2026-10-17
+chilli,Dakshina Kannada,Mangaluru,8200,12200,10200,2026-10-16
+chilli,Dakshina Kannada,Mangaluru,7500,11500,9500,2026-10-15
+chilli,Dakshina Kannada,Mangaluru,8000,12000,10000,2026-10-14
+chilli,Dakshina Kannada,Mangaluru,7800,11800,9800,2026-10-13
+chilli,Dakshina Kannada,Mangaluru,8100,12100,10100,2026-10-12
+chilli,Udupi,Udupi,8200,12200,10200,2026-10-18
+chilli,Udupi,Udupi,8000,12000,10000,2026-10-17
+pepper,Dakshina Kannada,Mangaluru,45000,55000,50000,2026-10-18
+pepper,Dakshina Kannada,Mangaluru,44000,54000,49000,2026-10-17
+pepper,Dakshina Kannada,Mangaluru,45500,55500,50500,2026-10-16
+pepper,Dakshina Kannada,Mangaluru,43000,53000,48000,2026-10-15
+pepper,Dakshina Kannada,Mangaluru,44500,54500,49500,2026-10-14
+pepper,Dakshina Kannada,Mangaluru,45000,55000,50000,2026-10-13
+pepper,Dakshina Kannada,Mangaluru,44000,54000,49000,2026-10-12
+pepper,Dakshina Kannada,Puttur,44000,54000,49000,2026-10-18
+pepper,Dakshina Kannada,Sullia,43000,53000,48000,2026-10-18
+pepper,Udupi,Udupi,45000,55000,50000,2026-10-18
+pepper,Udupi,Udupi,44500,54500,49500,2026-10-17
+ginger,Dakshina Kannada,Mangaluru,3500,5500,4500,2026-10-18
+ginger,Dakshina Kannada,Mangaluru,3400,5400,4400,2026-10-17
+ginger,Dakshina Kannada,Mangaluru,3600,5600,4600,2026-10-16
+ginger,Dakshina Kannada,Mangaluru,3300,5300,4300,2026-10-15
+ginger,Dakshina Kannada,Mangaluru,3500,5500,4500,2026-10-14
+ginger,Dakshina Kannada,Mangaluru,3450,5450,4450,2026-10-13
+ginger,Dakshina Kannada,Mangaluru,3550,5550,4550,2026-10-12
+ginger,Dakshina Kannada,Puttur,3400,5400,4400,2026-10-18
+ginger,Udupi,Udupi,3600,5600,4600,2026-10-18
+ginger,Udupi,Udupi,3500,5500,4500,2026-10-17
+ginger,Udupi,Kundapura,3400,5400,4400,2026-10-18

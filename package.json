@@ -1,0 +1,16 @@
+{
+  "name": "mandimitra",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MandiMitra - Kannada-first marketplace for marginal farmers",
+  "scripts": {
+    "seed": "cd server && node seed.js",
+    "dev:server": "cd server && node index.js",
+    "dev:client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
