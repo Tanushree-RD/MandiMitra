@@ -2,6 +2,8 @@
 	import { language, listings, selectedListingId, addToast, acceptOfferAction, confirmedDeal } from '#lib/stores/appStore';
 	import PriceComparisonBadge from '#lib/components/PriceComparisonBadge.svelte';
 	import { goto } from '$app/navigation';
+
+	const browser = typeof window !== 'undefined';
 	import {
 		ArrowLeft,
 		MapPin,
@@ -67,9 +69,12 @@
 	}
 
 	function handleCallFarmer() {
+		if (browser) {
+			window.location.href = `tel:${listing.farmerPhone.replace(/\s+/g, '')}`;
+		}
 		addToast(
-			isKannada ? 'ರೈತರ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ' : 'Farmer Mobile Contact',
-			`${listing.farmerName}: ${listing.farmerPhone}`,
+			isKannada ? 'ರೈತರಿಗೆ ಕರೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ...' : 'Connecting Call to Farmer...',
+			`${listing.farmerName}: ${listing.farmerPhone} (Direct Farmgate Connect)`,
 			'info',
 			5000
 		);

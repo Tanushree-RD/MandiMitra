@@ -75,9 +75,60 @@
 	}
 
 	function handleDownloadPass() {
+		if (browser) {
+			const passVoucher = `=====================================================
+            MANDIMITRA (ಮಂಡಿಮಿತ್ರ)
+    OFFICIAL DIGITAL FARMGATE TRADE PASS
+=====================================================
+Trade ID:            ${dealId}
+Issue Timestamp:     ${new Date().toLocaleString('en-IN')}
+Platform Compliance: APMC Verified & Compliant
+Brokerage Fee:       ₹0 (Zero Middleman Deductions)
+-----------------------------------------------------
+CROP & TRANSACTION DETAILS:
+Harvest:             ${listing.cropEn} (${listing.cropKn})
+Quantity:            ${offer.quantityRequested} ${listing.unit}
+Agreed Rate:         ₹${offer.offerPricePerUnit.toLocaleString()} / ${listing.unit}
+Total Agreed Payout: ₹${offer.totalAmount.toLocaleString()}
+
+-----------------------------------------------------
+SELLER (FARMER):
+Name:                ${listing.farmerName}
+Phone:               ${listing.farmerPhone}
+Farmgate Location:   ${listing.pickupAddress}
+APMC Benchmark:      ${listing.mandiApmc}
+
+-----------------------------------------------------
+BUYER (TRADER):
+Company:             ${offer.buyerCompany}
+Representative:      ${offer.buyerName}
+Phone:               ${offer.buyerPhone}
+Operating Station:   ${offer.buyerLocation}
+
+-----------------------------------------------------
+LOGISTICS SCHEDULE:
+Pickup Date:         Tomorrow, 09:30 AM (Farmgate Weighment)
+Transport Status:    Vehicle Assigned & Dispatched
+Weighment Terms:     Electronic weighment at farm gate
+=====================================================
+This official trade voucher authorizes direct farmgate 
+loading and transport across Karnataka districts.
+`;
+
+			const blob = new Blob([passVoucher], { type: 'text/plain;charset=utf-8' });
+			const downloadUrl = URL.createObjectURL(blob);
+			const a = document.createElement('a');
+			a.href = downloadUrl;
+			a.download = `MandiMitra_GatePass_${dealId}.txt`;
+			document.body.appendChild(a);
+			a.click();
+			document.body.removeChild(a);
+			URL.revokeObjectURL(downloadUrl);
+		}
+
 		addToast(
-			isKannada ? 'ಗೇಟ್ ಪಾಸ್ ಡೌನ್‌ಲೋಡ್ ಆಗಿದೆ' : 'Digital Gate Pass Saved',
-			`Pass #${dealId}.pdf generated for farmgate loading`,
+			isKannada ? 'ಗೇಟ್ ಪಾಸ್ ಡೌನ್‌ಲೋಡ್ ಆಗಿದೆ' : 'Digital Gate Pass Downloaded',
+			`MandiMitra_GatePass_${dealId}.txt saved to your device`,
 			'success'
 		);
 	}
