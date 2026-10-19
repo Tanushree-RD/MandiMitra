@@ -1,15 +1,17 @@
 <script lang="ts">
 	import './layout.css';
 	import type { LayoutProps } from './$types';
-	import DemoFlowBar from '#lib/components/DemoFlowBar.svelte';
+	import FloatingDemoController from '#lib/components/FloatingDemoController.svelte';
 	import Navbar from '#lib/components/Navbar.svelte';
 	import BottomNavigation from '#lib/components/BottomNavigation.svelte';
 	import ToastNotifications from '#lib/components/ToastNotifications.svelte';
 	import { language } from '#lib/stores/appStore';
+	import { page } from '$app/state';
 	import { Sprout, ShieldCheck, Heart } from '@lucide/svelte';
 
 	let { children }: LayoutProps = $props();
 	let isKannada = $derived($language === 'kn');
+	let isLandingPage = $derived(page.url.pathname === '/');
 </script>
 
 <svelte:head>
@@ -17,17 +19,17 @@
 </svelte:head>
 
 <div class="min-h-screen flex flex-col bg-stone-50 text-stone-900 selection:bg-emerald-200 selection:text-emerald-950 font-sans">
-	<!-- Demo flow quick switcher for judges -->
-	<DemoFlowBar />
-
-	<!-- Sticky Header -->
+	<!-- Sticky Clean Single Navbar -->
 	<Navbar />
+
+	<!-- Floating prototype switcher for evaluators -->
+	<FloatingDemoController />
 
 	<!-- Floating notifications -->
 	<ToastNotifications />
 
 	<!-- Main Body Content -->
-	<main class="flex-1 pb-24 md:pb-12">
+	<main class="flex-1 pb-20 md:pb-12">
 		{@render children()}
 	</main>
 
@@ -90,6 +92,8 @@
 		</div>
 	</footer>
 
-	<!-- Bottom Navigation (Mobile Only) -->
-	<BottomNavigation />
+	<!-- Bottom Navigation (Mobile Only, App Views) -->
+	{#if !isLandingPage}
+		<BottomNavigation />
+	{/if}
 </div>

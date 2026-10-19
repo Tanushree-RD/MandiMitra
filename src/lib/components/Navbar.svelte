@@ -24,26 +24,23 @@
 	}
 </script>
 
-<header class="sticky top-8 md:top-8 z-40 bg-white/90 backdrop-blur-xl border-b border-stone-200/80 transition-all">
+<header class="sticky top-0 z-40 bg-white/80 backdrop-blur-xl border-b border-stone-200/70 transition-all">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="flex items-center justify-between h-16">
 			<!-- Logo & Brand -->
 			<a href="/" class="flex items-center gap-2.5 group">
-				<div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-emerald-800 to-emerald-600 text-white flex items-center justify-center shadow-md shadow-emerald-700/20 group-hover:scale-105 transition-transform duration-200">
-					<Sprout class="w-6 h-6 stroke-[2.2]" />
+				<div class="w-9 h-9 rounded-xl bg-emerald-800 text-white flex items-center justify-center shadow-xs group-hover:bg-emerald-700 transition-colors">
+					<Sprout class="w-5 h-5 stroke-[2.2]" />
 				</div>
 				<div>
-					<div class="flex items-baseline gap-1.5">
-						<span class="text-lg md:text-xl font-extrabold text-stone-900 tracking-tight group-hover:text-emerald-800 transition-colors">
+					<div class="flex items-center gap-2">
+						<span class="text-base sm:text-lg font-extrabold text-stone-900 tracking-tight group-hover:text-emerald-800 transition-colors">
 							{isKannada ? 'ಮಂಡಿಮಿತ್ರ' : 'MandiMitra'}
 						</span>
-						<span class="hidden sm:inline text-[11px] font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
-							{isKannada ? 'ನೇರ ಮಾರುಕಟ್ಟೆ' : 'Farmer-Direct'}
+						<span class="hidden sm:inline-block text-[10px] font-semibold text-stone-500 uppercase tracking-wider bg-stone-100 px-2 py-0.5 rounded-md border border-stone-200">
+							{isKannada ? 'ನೇರ ವ್ಯಾಪಾರ' : 'Direct Trade'}
 						</span>
 					</div>
-					<p class="text-[10px] text-stone-500 font-medium -mt-0.5 hidden xs:block">
-						{isKannada ? 'ಕರ್ನಾಟಕ ಎಪಿಎಂಸಿ ಜೋಡಿತ ವೇದಿಕೆ' : 'Karnataka APMC Linked'}
-					</p>
 				</div>
 			</a>
 

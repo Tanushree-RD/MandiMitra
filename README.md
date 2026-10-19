@@ -19,7 +19,7 @@ Every feature listed below is verified and genuinely testable in the prototype:
 
 | Feature Claim | Implementation Status | How to Test in Prototype |
 | :--- | :--- | :--- |
-| **Judge-Friendly Demo Flow Bar** | **Fully Implemented** | Visible at the top of every screen. Click any of the 9 stages (1 to 9) to jump directly to that step, or use the quick role toggle button (`🌾 Farmer View` / `🛒 Buyer View`). |
+| **Floating Demo Controller Dock** | **Fully Implemented** | Discreet floating pill in the bottom right corner of every screen. Clicking it opens a drawer to jump directly to any of the 9 stages (1 to 9) or toggle between Farmer and Buyer roles in one click. |
 | **Audio Accessibility / Kannada Voice Search** | **Fully Implemented (Simulated Demo)** | In `/buyer`, click the microphone icon (🎤) inside the search bar. It triggers an animated listening indicator and toast notification in Kannada, auto-populates *"Arecanut"* (*ಅಡಿಕೆ*), and filters matching listings. |
 | **Karnataka APMC Benchmark Price Ticker** | **Fully Implemented (Simulated Daily Feed)** | Displayed on the Landing Page (`/`) and Farmer Hub (`/farmer`). Shows modal benchmark prices, percentage fluctuations, and local yards (Puttur, Bantwal, Sullia, Belthangady, Udupi). |
 | **One-Click Simulated Phone Call** | **Fully Implemented** | On `/buyer/crop`, click *"Call Farmer Directly"*. It triggers the `tel:` dialer protocol on supported devices and displays a direct contact notification with the farmer's verified number. |
